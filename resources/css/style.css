@@ -6,8 +6,13 @@
 }
 
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    font-family: 'Helvetica 35 Thin', sans-serif;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    font-family: 'Helvetica 55 Roman', sans-serif;
+    font-family: 'Helvetica 65 Medium', sans-serif;
+    font-size: 18px;
     line-height: 1.5;
     color: #545454;
     text-rendering: optimizeLegibility;
@@ -23,12 +28,68 @@ html {
 .icon-small{
     color: #fff;
     display: inline-block;
-    font-size: 90%;
+    font-size: 80%;
     margin-right: 10px;
 }
 
-/* header section start */
+h1 {
+    margin-top: 0;
+    font-size: 280%;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.quote-text-para{
+    color: #fff;
+    font-size: 80%;
+    line-height: 145%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 70%;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 20px 0 0;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: #fff;
+    color: #3498db;
+}
+
+.btn-blue {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-orange {
+    background-color: #e67e22;
+    color: #000;
+}
+
+/* header section start */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
 
 /* header-social nav start */
 .header-social {
@@ -62,7 +123,9 @@ html {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    font-size: 90%;
+    font-size: 80%;
+    font-weight: 300;
+    transition: color 0.2s;
 }
 
 .contant-nav li a:active,
@@ -74,7 +137,9 @@ html {
 /* header-social nav end */
 
 /* main navbar start */
-
+.main-navbar {
+    background-color: #fff;
+}
 .logo {
     float: left;
     padding: 20px 0;
@@ -96,15 +161,33 @@ html {
     text-decoration: none;
     padding: 10px 15px;
     color: #000;
-    font-size: 90%;
+    font-size: 80%;
     text-transform: uppercase;
     font-weight: 300;
+    transition: background-color 0.2s, color 0.2s, border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
     background-color: #3498db;
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     border-bottom: 2px solid #e67e22;
 }
+
+/* main navbar end */
+
+.head-quote{
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.head-quote b {
+    color: #e67e22;
+}
+
+/* header section end */
