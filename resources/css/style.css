@@ -53,6 +53,7 @@ h1 {
     margin-left: 25%;
     text-align: center;
     margin-bottom: 40px;
+    font-style: italic;
 }
 
 .btn:link,
@@ -70,16 +71,16 @@ h1 {
 .btn:active,
 .btn:hover {
     background-color: #fff;
-    color: #3498db;
+    color: #0984e3;
 }
 
 .btn-blue {
-    background-color: #3498db;
+    background-color: #0984e3;
     color: #fff;
 }
 
 .btn-orange {
-    background-color: #e67e22;
+    background-color: #f1c40f;
     color: #000;
 }
 
@@ -132,7 +133,7 @@ header {
 .contant-nav li a:hover,
 .social-nav li a:active,
 .social-nav li a:hover {
-    color: #e67e22;
+    color: #f1c40f;
 }
 /* header-social nav end */
 
@@ -169,10 +170,10 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    background-color: #3498db;
+    background-color: #0984e3;
     color: #fff;
     font-weight: 700;
-    border-bottom: 2px solid #e67e22;
+    border-bottom: 2px solid #f1c40f;
 }
 
 /* main navbar end */
@@ -187,7 +188,7 @@ header {
 }
 
 .head-quote b {
-    color: #e67e22;
+    color: #f1c40f;
 }
 
 /* header section end */
