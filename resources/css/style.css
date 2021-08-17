@@ -1,0 +1,110 @@
+/* basic stepup */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+    text-rendering: optimizeLegibility;
+}
+
+/* reusable components */
+
+.row {
+    max-width: 1170px;
+    margin:0 auto;
+}
+
+.icon-small{
+    color: #fff;
+    display: inline-block;
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+/* header section start */
+
+
+/* header-social nav start */
+.header-social {
+    background-color: #232323;
+}
+
+.contant-nav,
+.social-nav {
+    padding: 20px 0;
+    list-style: none;   
+}
+
+.contant-nav{
+    float: left;
+}
+
+.social-nav{
+    float: right;
+}
+
+.contant-nav li,
+.social-nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contant-nav li a:link,
+.contant-nav li a:visited,
+.social-nav li a:link,
+.social-nav li a:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+}
+
+.contant-nav li a:active,
+.contant-nav li a:hover,
+.social-nav li a:active,
+.social-nav li a:hover {
+    color: #e67e22;
+}
+/* header-social nav end */
+
+/* main navbar start */
+
+.logo {
+    float: left;
+    padding: 20px 0;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    padding-top: 35px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+    font-size: 90%;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: 400;
+    border-bottom: 2px solid #e67e22;
+}
