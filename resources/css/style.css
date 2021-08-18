@@ -26,7 +26,7 @@ html {
 }
 
 section {
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .icon-small{
@@ -94,8 +94,9 @@ h5::before{
 .para {
     color: #777;
     font-size: 90%;
-    line-height: 150%;
-    padding: 20px 0;
+    line-height: 145%;
+    letter-spacing: 1px;
+    padding: 15px 0;
     margin-bottom: 5px;
 }
 
@@ -286,3 +287,59 @@ header {
 }
 
 /* offer section end */
+
+/* service section start */
+.section-service {
+    background-color: #f9f9f9;
+}
+
+.section-service .btn {
+    margin-top: 15px;
+}
+
+.img-card {
+    max-width: 30%;
+    background-color: #fff;
+    float: left;
+    margin-right: 3%;
+}
+
+.img-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-body,
+.card-footer {
+    text-align: left;
+    padding: 15px;
+}
+
+.card-body h6 {
+    font-size: 95%;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    color: #777;
+    font-size: 80%;
+    line-height: 145%;
+    letter-spacing: 1.5px;
+}
+
+.card-footer {
+    padding: 20px;
+}
+
+.card-footer a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0084b4;
+    letter-spacing: 1px;
+    font-size: 75%;
+    line-height: 145%;
+}
+
+/* service section end */
