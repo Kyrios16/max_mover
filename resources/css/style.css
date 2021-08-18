@@ -377,3 +377,42 @@ header {
 }
 
 /* work section end */
+
+/* counter section start */
+
+.section-counter {
+    background-color: #0084b4;
+    padding: 70px 0;
+}
+
+.counter-box {
+    padding: 0 15px;
+}
+
+.big-icon {
+    padding-right: 16px;
+    font-size: 150%;
+    color: #f1c40f;
+}
+
+.count {
+    color: #fff;
+    font-size: 210%;
+    font-weight: 700;
+    letter-spacing: 1.056px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.count-text {
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    line-height: 145%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* counter section end */
