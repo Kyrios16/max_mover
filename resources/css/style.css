@@ -343,3 +343,37 @@ header {
 }
 
 /* service section end */
+
+/* work section start */
+
+.work-list {
+    margin-top: 50px;
+}
+
+.work-list li {
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.work-list li a:link,
+.work-list li a:visited {
+    font-size: 80%;
+    color: #777;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transition: color 0.2s;
+}
+
+.work-list li a:active, 
+.work-list li a:hover {
+    color: #f1c40f;
+}
+
+.work-gallery {
+    margin-top: 30px;
+}
+
+/* work section end */
