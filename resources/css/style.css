@@ -31,7 +31,7 @@ section {
 
 .icon-small{
     color: #fff;
-    display: inline-block;
+    display: block;
     font-size: 80%;
     margin-right: 15px;
 }
@@ -51,6 +51,7 @@ h1 {
 }
 
 h3 {
+    text-transform: capitalize;
     color: #232323;
     font-family: 'Titillium Web', sans-serif;
     font-size: 150%;
@@ -390,6 +391,7 @@ header {
 }
 
 .big-icon {
+    display: block;
     padding-right: 16px;
     font-size: 150%;
     color: #f1c40f;
@@ -511,3 +513,59 @@ header {
 }
 
 /* blog section end */
+
+/* clients testimonials section start */
+.section-testimonials {
+    background-color: #f9f9f9;
+}
+
+.testi-box {
+    background-color: #fff;
+    padding: 40px 30px;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+.testi-box img {
+    border-radius: 50%;
+    margin: 5px auto;
+}
+
+.testi-box h4 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #232323;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.testi-box .cl-yellow {
+    display: inline-block;
+    font-style: italic;
+    font-size: 80%;
+    font-weight: 500;
+}
+
+.open-quote i {
+    font-size: 140%;
+    color: #f1c40f;
+    margin: 15px auto;
+}
+
+.testi-box p {
+    font-size: 80%;
+    font-weight: 300;
+    color: #777;
+    font-style: italic;
+    line-height: 145%;
+    padding-right: 2%;
+  }
+
+.rating {
+    margin: 15px auto;
+}
+.rating .icon-small {
+    color: #f1c40f;
+    margin: 0;
+}
