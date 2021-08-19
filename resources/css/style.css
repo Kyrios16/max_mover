@@ -569,3 +569,28 @@ header {
     color: #f1c40f;
     margin: 0;
 }
+
+/* client logos section start */
+
+.section-clients {
+    padding: 70px 0;
+}
+
+ .client-box {
+    border: 1px solid #a3a3a3;
+    text-align: center;
+    line-height: 148px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    min-height: 148px;
+    max-height: 148px;
+} 
+
+.client-box img {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+/* client logos section end */
